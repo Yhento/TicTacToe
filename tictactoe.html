@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Let's Play TicTacToe</title>
+    <link rel="stylesheet" href="css/tictactoe.css">
 </head>
 <body>
+
+<div class="game-wrapper">
+    <div class="players-message">
+        <div class="form-field">
+            <label for="playerone">Player One</label>
+            <input type="text" name="playerone" id="playerone">
+        </div>
+        <div class="form-field">
+            <label for="playertwo">Player Two</label>
+            <input type="text" name="playertwo" id="playertwo">
+        </div>
+        <button class="start_button" onclick="game.startGame();">Start Game</button>
+    </div>
+   
+</div>
+
     
 </body>
+<script src="js/practice.js"></script>
 </html>
